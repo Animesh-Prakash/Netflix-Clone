@@ -299,3 +299,161 @@ input[type="text"]{
 .question:hover{
   background-color: rgb(66, 66, 66);
 }
+@media screen and (max-width: 1000px){
+  #heading1{
+    font-size: 2rem;
+  }
+  .heading2{
+      font-size: 1rem;
+  }
+  #container_input{
+      display: flex;
+      height: 130px;
+      flex-direction: column;
+      align-items: center;
+
+  }
+   #input{
+      width: 60vw;
+    margin: 10px;
+   }
+  .container2{
+     height: 120vh;
+  }
+  .second{
+      flex-direction: column;
+      padding: 0px;
+      margin-top: 10px;
+  }
+  .text_container{
+      display: flex;
+      align-items: center;
+      
+  }
+  .text1{
+      font-size: 1.8rem;
+      text-align: center;
+  }
+  .text2{
+      text-align: center;
+  }
+  .img1{
+     margin: auto;
+    
+  }
+ .container3{
+  height: 180vh;
+
+ }
+ #container_input2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120px;
+  
+ }
+ #input2{
+  width: 60vw;
+  margin: 10px;
+ }
+ .container4{
+  height: 100vh;
+ }
+ .grid_container{
+  grid-template-columns: auto auto;
+ }
+}
+/* @media screen and (max-width: 500px ) and (min-height:200px){
+
+} */
+@media screen  and (min-height: 600px){
+ nav span img{
+    height: 120px;
+    width: 100px;
+   }
+   .language{
+    width: 50px;
+    font-size: 12px;
+   }
+   #sign{
+    margin-left: 6px;
+
+   }
+   .text1{
+    font-size: 1.8rem;
+   }
+   .text2{
+    font-size: 1rem;
+   }
+   
+   
+   .img1 img{
+    height: 35vh;
+   }
+   #video1{
+    height: 24vh;
+    position: absolute;
+    top: 34px;
+   }
+   #photo1{
+    
+    padding-bottom: 30px;
+   }
+ .img1{
+    height: 40vh;
+ }
+ #img23{
+    height: 28vh;
+ }
+ 
+ #video2{
+    width: 52vw;
+    height: 20vh;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+ }
+ 
+ #sign{
+    width: 45px;
+    font-size: 10px;
+    padding: 3px;
+ }
+ .main .box{
+    height: 85vh;
+ }
+ .main{
+    height: 85vh;
+ }
+ .container2{
+    height: auto;
+ }
+ .img1 img{
+    height: 30vh;
+ }
+ #video1{
+    height: 18vh;
+ }
+ .img1{
+    height: 30vh;
+ }
+ .question{
+    overflow:visible;
+    height: auto;
+ }
+ .container3{
+    height: auto;
+ }
+ .container4{
+    height: auto;
+ }
+ .container4_box{
+    padding-top: 40px;
+    width: 90vw;
+    height: 80vh;
+ }
+ #img11{
+    height: 28vh;
+    
+ }
+} 
